@@ -10,3 +10,17 @@ payload:
   - DOMAIN-SUFFIX,bingsandbox.com
   - DOMAIN-SUFFIX,bingvisualsearch.com
   - DOMAIN-SUFFIX,bingworld.com
+  #补充
+  - DOMAIN,bat.bing.com
+  - DOMAIN,browser.events.data.microsoft.com
+  - DOMAIN,config.edge.skype.com
+  - DOMAIN,content.lifecycle.office.net
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,edgeservices.bing.com
+  - DOMAIN,functional.events.data.microsoft.com
+  - DOMAIN,login.live.com
+  - DOMAIN,services.bingapis.com
+  - DOMAIN,storage.live.com
+  - DOMAIN,strict.bing.com
+  - DOMAIN,www.bingapis.com
+  - DOMAIN-SUFFIX,bing.com
