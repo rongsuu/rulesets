@@ -1,35 +1,101 @@
-+.api.githubcopilot.com
-+.bat.bing.com
-+.browser.events.data.microsoft.com
-+.config.edge.skype.com
-+.content.lifecycle.office.net
-+.copilot-proxy.githubusercontent.com
-+.copilot.microsoft.com
-+.edge.microsoft.com
-+.edgeservices.bing.com
-+.functional.events.data.microsoft.com
-+.login.live.com
-+.services.bingapis.com
-+.storage.live.com
-+.strict.bing.com
-+.sydney.bing.com
-+.www.bing.com
-+.www.bingapis.com
-+.bing.com
+payload:
+  # ChatGPT / OpenAI related domains
+  - DOMAIN,api.statsig.com
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,cdn.openai.com
+  - DOMAIN,chat.openai.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,ios.chat.openai.com
+  - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN,openai-api.arkoselabs.com
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,static.cloudflareinsights.com
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,algolia.net
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,observeit.net
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,openaicom.imgix.net
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-KEYWORD,openaicom-api
 
-+.bing.com
-+.bing.com.cn
-+.bing.net
-+.bingagencyawards.com
-+.bingapistatistics.com
-+.bingsandbox.com
-+.bingvisualsearch.com
-+.bingworld.com
+  # Copilot related domains
+  - DOMAIN,api.githubcopilot.com
+  - DOMAIN,bat.bing.com
+  - DOMAIN,browser.events.data.microsoft.com
+  - DOMAIN,config.edge.skype.com
+  - DOMAIN,content.lifecycle.office.net
+  - DOMAIN,copilot-proxy.githubusercontent.com
+  - DOMAIN,copilot.microsoft.com
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,edgeservices.bing.com
+  - DOMAIN,functional.events.data.microsoft.com
+  - DOMAIN,login.live.com
+  - DOMAIN,services.bingapis.com
+  - DOMAIN,storage.live.com
+  - DOMAIN,strict.bing.com
+  - DOMAIN,sydney.bing.com
+  - DOMAIN,www.bing.com
+  - DOMAIN,www.bingapis.com
+  - DOMAIN-SUFFIX,bing.com
 
-+.aistudio.google.com
-+.bard.google.com
-+.gemini.google.com
-+.generativelanguage.googleapis.com
+  # Gemini related domains
+  - DOMAIN,bard.google.com
+  - DOMAIN,gemini.google.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,ai.google.dev
+  - DOMAIN,aida.googleapis.com
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,makersuite.google.com
 
-+.anthropic.com
-+.claude.ai
+  # Claude related domains
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - IP-CIDR,160.79.104.0/23,no-resolve
+  - IP-CIDR6,2607:6bc0::/48,no-resolve
+
+  # JetBrains AI related domains
+  - DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
+
+  # Meta AI related domains
+  - DOMAIN,imagine.meta.com
+  - DOMAIN-SUFFIX,meta.ai
+
+  # Perplexity AI related domains
+  - DOMAIN-SUFFIX,perplexity.ai
+
+  # Mistral AI related domains
+  - DOMAIN,chat.mistral.ai
+  - DOMAIN,console.mistral.ai
+  - DOMAIN-SUFFIX,mistral.ai
+
+  # Bing AI related domains
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bing.com.cn
+  - DOMAIN-SUFFIX,bing.net
+  - DOMAIN-SUFFIX,bingagencyawards.com
+  - DOMAIN-SUFFIX,bingapistatistics.com
+  - DOMAIN-SUFFIX,bingsandbox.com
+  - DOMAIN-SUFFIX,bingvisualsearch.com
+  - DOMAIN-SUFFIX,bingworld.com
