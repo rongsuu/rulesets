@@ -1,3 +1,5 @@
+payload:
+
   # Bing AI related domains
   # This is using the domains from 可莉⭕️'s Bing AI rule set. Remove if not needed.
   - DOMAIN-SUFFIX,bing.com
